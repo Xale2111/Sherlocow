@@ -1,0 +1,4 @@
+perso1:je suis un dialogue de base;;
+perso2:ok ok hahahahahaha;;
+perso2:tout pareil;;
+perso1:ouais
