@@ -5,7 +5,7 @@ using UnityEngine;
 public class Depl_objet : MonoBehaviour
 {
     public Collider2D objet;
-    public Vector3 positionZone;
+    public Vector2 positionZone;
     public Vector2 positionO;
     public bool onZone = false; 
 
@@ -47,11 +47,16 @@ public class Depl_objet : MonoBehaviour
             onZone = false;
         }
     }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        Debug.Log(collision.transform.position);
+    }
     private void OnMouseUp()
     {
         if (onZone)
         {
             transform.position = positionZone;
+            Debug.Log(transform.position);
         }
         else
         {

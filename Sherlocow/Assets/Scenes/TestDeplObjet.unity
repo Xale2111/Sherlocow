@@ -155,9 +155,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objet: {fileID: 758142733}
-  positionZone: {fileID: 1955358823}
-  dragMouse: 0
+  positionZone: {x: 0, y: 0, z: 0}
   positionO: {x: 0, y: 0}
+  onZone: 0
 --- !u!212 &758142731
 SpriteRenderer:
   m_ObjectHideFlags: 0

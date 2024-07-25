@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - DropZone
+  - patate
   layers:
   - Default
   - TransparentFX
