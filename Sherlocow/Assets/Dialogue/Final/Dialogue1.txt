@@ -1,0 +1,8 @@
+P1/Sherlocow:Et vous là ! Au nom de la loi, arrêtez-vous ! ;; 
+P2/Cow-dbar:Bien joué détective mais trop tard ! Vous ne m'attraperez jamais !;;
+P1/Sherlocow:Lâche ! Pourquoi avez-vous fait ca ?;; 
+P2/Cow-dbar:Le gang des moustiques me poursuit depuis des lustres...;;
+P1/Sherlocow:Et quel meilleur moyen de leur échapper que de se déguiser en vache.;;
+P2/Cow-dbar:Pas mal détective ! Mais peu importe, j'ai toujours un plan B au besoin. À ce sujet, je vais devoir vous laisser. Mon train vient d'arriver. Au revoir Sherlocow !;;
+P1/Sherlocow:Revenez-ici tout de suite !
+

@@ -1,0 +1,7 @@
+P2/Meuherelien:Bravo ! Vous avez réussi !;; 
+P1/Sherlocow:Voici donc le fameux aspirataches !;;
+P2/Meuherelien:Grâce à vous, le voleur ne pourra plus voler nos tâches. merci;; 
+P1/Sherlocow:Je dois encore l'attraper. À ce sujet, j'ai aussi trouvé cela dans la grange.;;
+P2/Meuherelien:Qu'est ce que c'est ?;; 
+P1/Sherlocow:Des fausses cornes de vaches ! Mais pourquoi quelqu'un porterait-il des fausses cornes ..?;;
+P2/Meuherelien:Je vous laisse continuer inspecteur. Courage Meuhhh  

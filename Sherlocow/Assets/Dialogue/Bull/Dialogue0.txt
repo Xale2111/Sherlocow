@@ -1,0 +1,10 @@
+P1/Sherlocow:Bien le bonjour !;;
+P2/Tauronais:Vous êtes qui vous ?;;
+P1/Sherlocow:Sherlocow détective privé;;
+P2/Tauronais:Connais pas...;;
+P1/Sherlocow:Je suis ici pour résoudre le mystère du voleur de tâches.;;
+P2/Tauronais:Et qu'est ce qui me prouve d'ailleurs que vous êtes détective ?;;
+P1/Sherlocow:Avez-vous déjà entendu parlé de l'affaire de "la poule mouillée", "du coq qui en savait trop" ou "du scandale en bohèmheuuu ?;;
+P2/Tauronais:Non mais peu importe - Si vous voulez passer pour accéder à l'enclos des vaches, vous allez devoir résoudre une Heunigme.;;
+P1/Sherlocow:Résoudre une heunigme ?;;
+P2/Tauronais:Oui. Donnez-moi le mot de passe et vous pourrez passer. Pour un détective aussi célèbre que vous le dites, ça devrait être un jeu d'enfants !

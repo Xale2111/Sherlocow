@@ -1,0 +1,7 @@
+P2/Alait-x:Détective ! Vous êtes là enfin !!!!;;
+P1/Sherlocow:Que se passe-t-il ?;; 
+P2/Alait-x:Je l'ai vu ! Il est passé par là !;; 
+P1/Sherlocow:Qui donc ?;;   
+P2/Alait-x:le voleur de tâches ! Dépéchez-vous !;;
+P1/Sherlocow:Savez-vous quel chemin il a pris ?;;   
+P2/Alait-x:Je l'ai entendu dire qu'il choisirait le chemin qui sent le moins fort. Dépéchez-vous !!! Meuhhh 

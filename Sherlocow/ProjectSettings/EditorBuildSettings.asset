@@ -8,4 +8,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ChooseLevel.unity
+    guid: b8343c02add29f14d969ef5f0c93fa23
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 3a647cc709a2d514f93d0c70af58ecc3
+  - enabled: 1
+    path: Assets/Scenes/Enigme2.unity
+    guid: 5af693bcdcf4a3846b142f207194a123
+  - enabled: 1
+    path: Assets/Scenes/Enigme3.unity
+    guid: 2372737c5fc9be045b0053245d87d701
+  - enabled: 1
+    path: Assets/Scenes/Enigme4.unity
+    guid: 08e388ae771e35541a80406dcb81bc26
+  - enabled: 1
+    path: Assets/Scenes/EnigmeFinal.unity
+    guid: b66e195d622f3f342b2b640c31fe4f0c
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: d26533f0ad6b4ec4a84d0af6da20169b
   m_configObjects: {}

@@ -1,0 +1,10 @@
+P2/Meuherelien:Mais enfin qui êtes-vous ?;; 
+P1/Sherlocow:Sherlocow détective privé;;
+P2/Meuhrelien:Ah c'est vous ! Aidez-nous svp ! Quelqu'un a volé nos tâches !;;
+P1/Sherlcow:Je sais. Je sais. J'ai compris ! Dites m'en plus.;;
+P2/Meuhrelien:Je l'ai vu cacher sa machine dans la grange la-bas.;;
+P1/Sherlcow:Quelle machine ?;;
+P2/Meuhrelien:Son "aspirataches" ! Meuh !;;
+P1/Sherlcow:Et pourquoi ne pas y aller vous-même ?;;
+P2/Meuhrelien:La grange est verrouillée par un cadenas spécial. Je ne sais pas comment l'ouvrir.;;
+P1/Sherlcow:Ne vous inquietez pas, je suis sur le coup.

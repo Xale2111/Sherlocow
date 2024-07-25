@@ -1,0 +1,8 @@
+P1/Sherlocow:J'ai réussi ! ;;
+P2/Tauronais:Il semblerait.;;
+P1/Sherlocow:Oh regadez ça ! Les tâches volées étaient cachées ici; Au fond de l'enclos ! 
+P2/Tauronais:Qui a pu oser faire ça à mes petites vaches ?;;
+P1/Sherlocow:Il y avait également des gants en cuire.;;
+P2/Tauronais:Mais pourquoi quelqu'un voudrait-il porter des gants en cuire ?;;
+P1/Sherlocow:J'ai bien l'intention de le découvrir.;;
+P1/Sherlocow:Vous pouvez compter sur moi ! Parole de Sherlocow ! 
