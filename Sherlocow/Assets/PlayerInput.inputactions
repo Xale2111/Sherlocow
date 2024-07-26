@@ -2,7 +2,7 @@
     "name": "PlayerInput",
     "maps": [
         {
-            "name": "Player",
+            "name": "Dialogue",
             "id": "cc64cdae-5391-4137-8595-c26d8861821e",
             "actions": [
                 {
@@ -29,12 +29,40 @@
                 },
                 {
                     "name": "",
-                    "id": "c710d05c-a331-4762-9ce7-88e59b7a0f24",
-                    "path": "<Mouse>/leftButton",
+                    "id": "1d29adf6-e03d-4ddc-ad3e-04e76acf34ee",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "NextDialogue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Minigame",
+            "id": "f04fdb25-7c4f-434c-a979-db0b7f24c0b3",
+            "actions": [
+                {
+                    "name": "BackSpaceID",
+                    "type": "Button",
+                    "id": "c6538d3a-1cb3-45f6-83e5-1e0dc608e22b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "60635c06-5333-4571-a23c-63e7ba211c1b",
+                    "path": "<Keyboard>/backspace",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackSpaceID",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

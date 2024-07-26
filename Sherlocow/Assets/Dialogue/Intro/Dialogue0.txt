@@ -1,0 +1,11 @@
+O:Quelque part dans une contrée lontaine... dans une ferme comme il en existe tant d'autres... ;;
+O:De prime abord... ça ressemblait à une affaire comme les autres...;; 
+O:une ferme... des vaches... des "meuhh"...;;
+O:et pourtant...;;
+O:Les vaches de la "Fermheuuu" m'avaient appelés à l'aide après avoir vu leur tâches disparaître nuit après nuit.;;
+O:sale affaire...;;
+O:Rien ne m'aurait pu me préparer à vivre les événements à venir...;; 
+P1/Sherlocow:Ça y est. J'y suis enfin arrivé.;;
+P1/Sherlocow:À présent, je vais devoir trouver un moyen de rentrer dans la "fermheuuu".;;
+P1/Sherlocow:Comment elles m'ont dit déjà... Ah oui...;;
+P1/Sherlocow:OBSERVEUHHH !

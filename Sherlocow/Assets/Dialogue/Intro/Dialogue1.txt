@@ -1,0 +1,9 @@
+P1/Sherlocow:"Élémentairheuu mon cher Watson";; 
+P1/Sherlocow:Il est temps de voir dans quel bourbier je suis arrivé.;;  
+P2/Vache Milkael: Bonjour ! Bienvenue à la "Fermheuu", nous vous attendions avec impatience !;;
+P1/Sherlocow:Que s'est-il passé ?;;
+P2/Vache Milkael:Un sinistre individu a volé nos tâches ! Il vient dans notre sommeil.;;
+P1/Sherlocow:Mmmhhh.... Je vois. comme le père noël. malin... continuez;;
+P2/Vache Milkael:Il utilise une drôle de machine pour les aspirer ! Aidez-nous svp !;;
+P1/Sherlocow:Comptez sur moi ! Parole de Meuh !;;
+P2/Vache Milkael:Je vous laisse interroger les autres vaches pour plus de détails.
