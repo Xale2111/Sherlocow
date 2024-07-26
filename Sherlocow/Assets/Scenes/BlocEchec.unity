@@ -319,6 +319,7 @@ MonoBehaviour:
   patateStartPos: 1
   patateEndPos: 0
   goOnCase: {fileID: 10290403}
+  manage: {fileID: 0}
   doubleHorizontal: 0
   canGoOn1Case: 1
   upValue: 2
@@ -340,8 +341,10 @@ MonoBehaviour:
   patate: {fileID: 10290404}
   goOnCase: {fileID: 10290403}
   manage: {fileID: 576056901}
-  LatestX: 4
+  LatestX: 3
   LatestY: 1
+  surStart: 0
+  surEnd: 0
 --- !u!1 &47580874
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,8 +436,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!212 &47580878
 SpriteRenderer:
@@ -586,8 +587,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &179744757
 BoxCollider2D:
@@ -738,7 +737,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &368327341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -868,6 +867,7 @@ MonoBehaviour:
   patateStartPos: 0
   patateEndPos: 1
   goOnCase: {fileID: 368327341}
+  manage: {fileID: 0}
   doubleHorizontal: 0
   canGoOn1Case: 1
   upValue: 2
@@ -881,7 +881,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368327340}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66a4d64cb98034351aac042bc77c28a6, type: 3}
   m_Name: 
@@ -891,6 +891,8 @@ MonoBehaviour:
   manage: {fileID: 576056901}
   LatestX: 4
   LatestY: 0
+  surStart: 0
+  surEnd: 0
 --- !u!1 &431110861
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,8 +1220,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &715363327
 BoxCollider2D:
@@ -1364,8 +1364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &763678429
 BoxCollider2D:
@@ -1570,8 +1568,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!212 &813675448
 SpriteRenderer:
@@ -1716,8 +1712,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!212 &918777194
 SpriteRenderer:
@@ -1802,8 +1796,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &934122345
 BoxCollider2D:
@@ -1937,7 +1929,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &961638918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1945,7 +1937,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961638917}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66a4d64cb98034351aac042bc77c28a6, type: 3}
   m_Name: 
@@ -1955,6 +1947,8 @@ MonoBehaviour:
   manage: {fileID: 576056901}
   LatestX: 2
   LatestY: 2
+  surStart: 0
+  surEnd: 0
 --- !u!114 &961638919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1976,6 +1970,7 @@ MonoBehaviour:
   patateStartPos: 0
   patateEndPos: 0
   goOnCase: {fileID: 961638920}
+  manage: {fileID: 0}
   doubleHorizontal: 1
   canGoOn1Case: 1
   upValue: 2
@@ -2189,8 +2184,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &1030985009
 BoxCollider2D:
@@ -2268,8 +2261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &1039142712
 BoxCollider2D:
@@ -2414,8 +2405,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &1118533644
 BoxCollider2D:
@@ -2549,7 +2538,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1198932153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2557,7 +2546,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198932152}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6913766c1dad046749d0786fb533c595, type: 3}
   m_Name: 
@@ -2571,6 +2560,7 @@ MonoBehaviour:
   patateStartPos: 0
   patateEndPos: 0
   goOnCase: {fileID: 1198932154}
+  manage: {fileID: 0}
   doubleHorizontal: 0
   canGoOn1Case: 0
   upValue: 1
@@ -2703,6 +2693,8 @@ MonoBehaviour:
   manage: {fileID: 576056901}
   LatestX: 0
   LatestY: 1
+  surStart: 0
+  surEnd: 0
 --- !u!1 &1214868138
 GameObject:
   m_ObjectHideFlags: 0
@@ -2723,7 +2715,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1214868139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2741,6 +2733,8 @@ MonoBehaviour:
   manage: {fileID: 576056901}
   LatestX: 1
   LatestY: 0
+  surStart: 0
+  surEnd: 0
 --- !u!114 &1214868140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2762,6 +2756,7 @@ MonoBehaviour:
   patateStartPos: 0
   patateEndPos: 0
   goOnCase: {fileID: 1214868141}
+  manage: {fileID: 0}
   doubleHorizontal: 0
   canGoOn1Case: 0
   upValue: 1
@@ -2908,8 +2903,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &1229847519
 BoxCollider2D:
@@ -3306,8 +3299,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &1540983919
 BoxCollider2D:
@@ -3452,8 +3443,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &1552083175
 BoxCollider2D:
@@ -3757,8 +3746,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &1574049858
 BoxCollider2D:
@@ -3836,8 +3823,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &1597892071
 BoxCollider2D:
@@ -4077,7 +4062,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1726849439}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66a4d64cb98034351aac042bc77c28a6, type: 3}
   m_Name: 
@@ -4087,6 +4072,8 @@ MonoBehaviour:
   manage: {fileID: 576056901}
   LatestX: 1
   LatestY: 2
+  surStart: 0
+  surEnd: 0
 --- !u!114 &1726849442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4207,8 +4194,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &1764362777
 BoxCollider2D:
@@ -4364,7 +4349,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765259652}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66a4d64cb98034351aac042bc77c28a6, type: 3}
   m_Name: 
@@ -4374,6 +4359,8 @@ MonoBehaviour:
   manage: {fileID: 576056901}
   LatestX: 1
   LatestY: 1
+  surStart: 0
+  surEnd: 0
 --- !u!114 &1765259655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4578,8 +4565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &1859674875
 BoxCollider2D:
@@ -4791,8 +4776,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &1862998135
 BoxCollider2D:
@@ -4930,8 +4913,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!212 &1911811760
 SpriteRenderer:
@@ -5116,7 +5097,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981733084}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66a4d64cb98034351aac042bc77c28a6, type: 3}
   m_Name: 
@@ -5126,6 +5107,8 @@ MonoBehaviour:
   manage: {fileID: 576056901}
   LatestX: 0
   LatestY: 2
+  surStart: 0
+  surEnd: 0
 --- !u!1 &2035362590
 GameObject:
   m_ObjectHideFlags: 0
@@ -5325,8 +5308,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b45ea7cf8c823431aa1dd943d5923ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrowName: 
-  arrowTag: 
   clickOn: 0
 --- !u!61 &2134263721
 BoxCollider2D:

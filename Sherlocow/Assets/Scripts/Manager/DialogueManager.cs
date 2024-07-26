@@ -21,6 +21,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Image rightBGContainer;
     [SerializeField] private TextMeshProUGUI dialogueBox;
     [SerializeField] private GameObject textContainer;
+    [SerializeField] private TextMeshProUGUI speakingCharacterName;
+    [SerializeField] private GameObject speakingCharacterNameContainer;
 
 
     [Header("VisualDialog images")]
@@ -34,6 +36,7 @@ public class DialogueManager : MonoBehaviour
     [Header("Minigame")]
     [Space(3)]
     [SerializeField] GameObject minigame;
+    [SerializeField] Game_Manager gameManager;
 
     [Header("Dialog Folder")]
     [Space(3)]
@@ -56,7 +59,6 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dialogueCanvas.enabled = false;
         leftCharacter.sprite = character1;
         rightCharacter.sprite = character2;
         leftBGContainer.sprite = leftBG;
@@ -67,8 +69,6 @@ public class DialogueManager : MonoBehaviour
 
     void GetDialogue()
     {
-        print("test");
-
         fullDialog.Clear();
         dialogLenght = 0;
         //Improve to put character name and style know which one is num 1 and which one num 2
@@ -123,34 +123,40 @@ public class DialogueManager : MonoBehaviour
                     MoveCharacterForward(leftCharacter);
                     MoveCharacterBackward(rightCharacter);
                     //Play speaking animation
-                    finalText = fullDialog[dialogIndex].Item2 + " : " + fullDialog[dialogIndex].Item3;
+                    ManageDialog(speakingCharacterName,true);
+
                     break;
 
                 case 2:                    
                     MoveCharacterForward(rightCharacter);
                     MoveCharacterBackward(leftCharacter);
                     //Play speaking animation
-                    finalText = fullDialog[dialogIndex].Item2 + " : " + fullDialog[dialogIndex].Item3;
-
+                    ManageDialog(speakingCharacterName,true);
                     break;
 
                 case 3:                    
                     MoveCharacterBackward(rightCharacter);
                     MoveCharacterBackward(leftCharacter);
+                    ManageDialog(speakingCharacterName, false);
 
-                    finalText = fullDialog[dialogIndex].Item3;
                     dialogueBox.fontStyle = FontStyles.Italic;
                     break;
 
                 default:
                     break;
             }
+            finalText = fullDialog[dialogIndex].Item3;
             dialogueBox.text = finalText;
 
                        
         }
     }
 
+    private void ManageDialog(TextMeshProUGUI characterName, bool showCharacterName)
+    {
+        speakingCharacterNameContainer.SetActive(showCharacterName);
+        characterName.text = fullDialog[dialogIndex].Item2;      
+    }
     public void NextDialogue(CallbackContext value)
     {
         if(value.performed && inDialog)
@@ -175,13 +181,13 @@ public class DialogueManager : MonoBehaviour
     private void MoveCharacterForward(Image characterToMove)
     {
         characterToMove.color = new Color(1,1,1);
-        characterToMove.rectTransform.localScale = new Vector2(3.5f, 3.5f);    
+        characterToMove.rectTransform.localScale = new Vector2(1.3f, 1.3f);    
     }
     private void MoveCharacterBackward(Image characterToMove)
     {
         float grayColored = 0.6f;
         characterToMove.color = new Color(grayColored, grayColored, grayColored);
-        characterToMove.rectTransform.localScale = new Vector2(3f, 3f);
+        characterToMove.rectTransform.localScale = new Vector2(1.15f, 1.15f);
     }
 
     private void EndDialog()
@@ -189,16 +195,20 @@ public class DialogueManager : MonoBehaviour
         MoveCharacterForward(leftCharacter);
         MoveCharacterForward(rightCharacter);
         textContainer.SetActive(false);
+        speakingCharacterNameContainer.SetActive(false);
         minigame.SetActive(true);
-        dialogueCanvas.enabled = false;
+        if (gameManager != null)
+        {
+            gameManager.StartChrono();
+        }
         currentDialogIndex++;
     }
 
     public void ChangeToNextDialog()
     {
         inDialog = true;
-        dialogueCanvas.enabled = true;
         textContainer.SetActive(true);
+        speakingCharacterNameContainer.SetActive(true);
         dialogIndex = 0;
         rightCharacter.sprite = character2SecondDialog;
         if (character2SecondDialog != null && currentDialogIndex > 0)

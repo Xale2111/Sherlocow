@@ -17,10 +17,17 @@ public class VerifyID : MonoBehaviour
     [Space(4)]
     [SerializeField] string answer;
 
+    [Header("Event")]
+    [Space(4)]
     [SerializeField] EventSystem eventSystem;
 
+    [Header("Minigame components")]
+    [Space(4)]
     [SerializeField] ResetAll reset;
+    [SerializeField] GameObject whitePanelParent;
 
+    [Header("DialogueManager")]
+    [Space(4)]
     [SerializeField] DialogueManager dialogueManager;
 
     IdLetterInput[] allInputs;
@@ -47,7 +54,10 @@ public class VerifyID : MonoBehaviour
                 }
                 if (VerifyAnswer())
                 {
-
+                    dialogueManager.ChangeToNextDialog();
+                    Destroy(gameObject);
+                    whitePanelParent.SetActive(false);
+                    break;
                 }
             }
         }
@@ -68,9 +78,7 @@ public class VerifyID : MonoBehaviour
         }
         print(userAnswer);        
         if (userAnswer.ToLower() == answer.Replace(" ", string.Empty).ToLower())
-        {
-            //lancer dialogue
-            print("YESSSSSSSSSS");
+        {                        
             return true;
         }
         return false;

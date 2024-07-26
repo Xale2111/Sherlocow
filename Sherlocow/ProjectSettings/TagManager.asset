@@ -3,14 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-<<<<<<< HEAD
-  - UIDialog
-  - Middle
-=======
-  - DropZone
-  - patate
->>>>>>> ee66b44d4bf895f1642f06a6d340b38de4e56596
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -18,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - UIDialog
+  - 
   - 
   - 
   - 
