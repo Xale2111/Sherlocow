@@ -18,8 +18,19 @@ public class CaseManager : MonoBehaviour
     public (Vector2, bool) sq8;
     public (Vector2, bool) sq9;
     public (Vector2, bool) sq10;
+    public bool sq1Bool;
+    public bool sq0Bool;
+    public bool sq2Bool;
+    public bool sq3Bool;
+    public bool sq4Bool;
+    public bool sq5Bool;
+    public bool sq6Bool;
+    public bool sq7Bool;
+    public bool sq8Bool;
+    public bool sq9Bool;
+    public bool sq10Bool;
 
-    
+
 
     // Start is called before the first frame update
     void Start()
@@ -46,11 +57,22 @@ public class CaseManager : MonoBehaviour
         cases[0,2] = sq9;
         cases[3, 0] = sq10;
         cases[3, 1] = sq0;
+        sq1Bool = cases[0, 0].Item2;
+        sq2Bool = cases[1, 0].Item2;
+        sq3Bool = cases[1, 1].Item2;
+        sq4Bool = cases[2, 0].Item2;
+        sq5Bool = cases[2, 1].Item2;
+        sq6Bool = cases[1, 2].Item2;
+        sq7Bool = cases[2, 2].Item2;
+        sq8Bool = cases[0, 1].Item2;
+        sq9Bool = cases[0, 2].Item2;
+        sq10Bool = cases[3, 0].Item2;
+        sq0Bool = cases[3, 1].Item2;
 
     }
 
-    // Update is called once per frame
-    void Update()
+// Update is called once per frame
+void Update()
     {
        
     }      

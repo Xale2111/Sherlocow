@@ -15,7 +15,7 @@ public class MoveOnCase : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        manage.cases[patate.patateX, patate.patateY].Item2 = false;
     }
 
     // Update is called once per frame
@@ -41,6 +41,11 @@ public class MoveOnCase : MonoBehaviour
             
 
         }
+
+
+
+
+
         else if (patate.patateStartPos == true)
         {
             if (surStart == false)

@@ -21,17 +21,23 @@ public class CubeManager : MonoBehaviour
     [SerializeField] private int downValue;
     [SerializeField] private int leftValue;
     [SerializeField] private int rightValue;
+    public bool twiceOnStart;
+    public bool twiceOnEnd;
     // Start is called before the first frame update
     void Start()
     {
+        twiceOnEnd = false;
+        twiceOnStart = false;
     }
     // Update is called once per frame
     void Update()
     {
-        if(!patateStartPos && !patateEndPos)
+        if(!patateStartPos && !patateEndPos && !twiceOnStart && !twiceOnEnd)
         {
             if (up.clickOn == true)
                     {
+                        twiceOnStart = false;
+                        twiceOnEnd = false;
                         if ((patateStartPos == false && patateEndPos == false) && patateY < upValue)
                         {
                             patateY += 1;
@@ -39,15 +45,18 @@ public class CubeManager : MonoBehaviour
                     }
                     if (down.clickOn == true)
                     {
-                        if ((patateStartPos == false && patateEndPos == false) && patateY > downValue)
+                        twiceOnStart = false;
+                        twiceOnEnd = false;
+                if ((patateStartPos == false && patateEndPos == false) && patateY > downValue)
                         {
                             patateY -= 1;
                         }
                     }
         }
         
-        if (left.clickOn == true)
+        if (left.clickOn == true && !twiceOnStart)
         {
+            twiceOnEnd = false;
             if (patateX == 0 && patateY == 0 && canGoOn1Case)
             {
                 patateStartPos = true;
@@ -56,24 +65,34 @@ public class CubeManager : MonoBehaviour
             }
             else if (patateEndPos)
             {
-                if (manage.cases[2,2].Item2)
+                if (manage.cases[2,2].Item2|doubleHorizontal)
                 {
                     patateX = 2;
-                                    patateY = 2;
-                                    patateEndPos = false;
+                    patateY = 2;
+                    patateEndPos = false;
                 }
                 
             }
             else if ((patateStartPos == false && patateEndPos == false && patateX > leftValue)|(patateX==1 && patateY==0 && doubleHorizontal))
             {
+                if(doubleHorizontal && patateX == 1 && patateY == 0)
+                {
+                    twiceOnStart = true;
+                }
                 patateX -= 1;
             }
         }
-        if (right.clickOn == true)
+        if (right.clickOn == true && !twiceOnEnd)
         {
+            twiceOnStart = false;
             if (patateX == 2 && patateY == 2 && canGoOn1Case)
             {
                 patateEndPos = true;
+                if(doubleHorizontal)
+                {
+                    twiceOnEnd = true;
+                }
+                
                 patateY = 0;
                 patateX = 3;
             }
