@@ -15,7 +15,7 @@ public class MoveOnCase : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        manage.cases[patate.patateX, patate.patateY].Item2 = false;
     }
 
     // Update is called once per frame
@@ -27,6 +27,7 @@ public class MoveOnCase : MonoBehaviour
             surStart = false;
             if(manage.cases[patate.patateX, patate.patateY].Item2)
             {
+                Debug.Log("Hé");
                 goOnCase.casePosition = manage.cases[patate.patateX, patate.patateY].Item1;
                 manage.cases[patate.patateX, patate.patateY].Item2 = false;
                 manage.cases[LatestX, LatestY].Item2 = true;
@@ -37,10 +38,22 @@ public class MoveOnCase : MonoBehaviour
             {
                 patate.patateX = LatestX;
                 patate.patateY = LatestY;
+                foreach((Vector2,bool) tuple in manage.cases)
+                {
+                    if(tuple.Item2==true)
+                    {
+                        Debug.Log(tuple.Item1);
+                    }
+                }
             }
             
 
         }
+
+
+
+
+
         else if (patate.patateStartPos == true)
         {
             if (surStart == false)
