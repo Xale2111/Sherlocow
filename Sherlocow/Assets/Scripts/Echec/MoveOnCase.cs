@@ -27,7 +27,6 @@ public class MoveOnCase : MonoBehaviour
             surStart = false;
             if(manage.cases[patate.patateX, patate.patateY].Item2)
             {
-                Debug.Log("Hé");
                 goOnCase.casePosition = manage.cases[patate.patateX, patate.patateY].Item1;
                 manage.cases[patate.patateX, patate.patateY].Item2 = false;
                 manage.cases[LatestX, LatestY].Item2 = true;
@@ -38,13 +37,6 @@ public class MoveOnCase : MonoBehaviour
             {
                 patate.patateX = LatestX;
                 patate.patateY = LatestY;
-                foreach((Vector2,bool) tuple in manage.cases)
-                {
-                    if(tuple.Item2==true)
-                    {
-                        Debug.Log(tuple.Item1);
-                    }
-                }
             }
             
 

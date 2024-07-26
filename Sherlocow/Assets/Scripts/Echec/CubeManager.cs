@@ -36,7 +36,6 @@ public class CubeManager : MonoBehaviour
         {
             if (up.clickOn == true)
                     {
-                        Debug.Log("click");
                         twiceOnStart = false;
                         twiceOnEnd = false;
                         if ((patateStartPos == false && patateEndPos == false) && patateY < upValue)
@@ -46,7 +45,6 @@ public class CubeManager : MonoBehaviour
                     }
                     if (down.clickOn == true)
                     {
-                        Debug.Log("click");
                         twiceOnStart = false;
                         twiceOnEnd = false;
                 if ((patateStartPos == false && patateEndPos == false) && patateY > downValue)
@@ -58,7 +56,6 @@ public class CubeManager : MonoBehaviour
         
         if (left.clickOn == true && !twiceOnStart)
         {
-            Debug.Log("click");
             twiceOnEnd = false;
             if (patateX == 0 && patateY == 0 && canGoOn1Case)
             {
@@ -87,7 +84,6 @@ public class CubeManager : MonoBehaviour
         }
         if (right.clickOn == true && !twiceOnEnd)
         {
-            Debug.Log("click");
             twiceOnStart = false;
             if (patateX == 2 && patateY == 2 && canGoOn1Case)
             {
