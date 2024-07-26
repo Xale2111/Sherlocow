@@ -1060,13 +1060,13 @@ MonoBehaviour:
   patate: {fileID: 180645358}
   goOnCase: {fileID: 180645359}
   manage: {fileID: 576056901}
-  LatestX: 2
+  LatestX: 1
   LatestY: 2
   surStart: 0
   surEnd: 0
   twiceAsX: -1
   twiceAsY: 0
-  SecondLateX: 1
+  SecondLateX: 0
   SecondLateY: 2
 --- !u!114 &180645358
 MonoBehaviour:
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   down: {fileID: 1584098292}
   left: {fileID: 1323116819}
   right: {fileID: 872269783}
-  patateX: 2
+  patateX: 1
   patateY: 2
   patateStartPos: 0
   patateEndPos: 0
@@ -1110,8 +1110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c087baa253594bfc861064f4770e403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPlace: {x: 6, y: 6, z: 0}
-  casePosition: {x: 6, y: 6}
+  startPlace: {x: 3, y: 6, z: 0}
+  casePosition: {x: 3, y: 6}
   blocSuperpose: {x: 0, y: 0}
 --- !u!114 &180645360
 MonoBehaviour:
@@ -1222,7 +1222,7 @@ MonoBehaviour:
   patate: {fileID: 180645358}
   goOnCase: {fileID: 180645359}
   manage: {fileID: 576056901}
-  LatestX: 2
+  LatestX: 1
   LatestY: 2
   surStart: 0
   surEnd: 0
@@ -1336,13 +1336,13 @@ MonoBehaviour:
   patate: {fileID: 231032168}
   goOnCase: {fileID: 231032169}
   manage: {fileID: 576056901}
-  LatestX: 1
+  LatestX: 2
   LatestY: 0
   surStart: 0
   surEnd: 0
   twiceAsX: 0
   twiceAsY: 1
-  SecondLateX: 1
+  SecondLateX: 2
   SecondLateY: 1
 --- !u!114 &231032168
 MonoBehaviour:
@@ -1360,7 +1360,7 @@ MonoBehaviour:
   down: {fileID: 546308725}
   left: {fileID: 831677218}
   right: {fileID: 141857759}
-  patateX: 1
+  patateX: 2
   patateY: 0
   patateStartPos: 0
   patateEndPos: 0
@@ -1386,8 +1386,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c087baa253594bfc861064f4770e403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPlace: {x: 3, y: 0, z: 0}
-  casePosition: {x: 3, y: 0}
+  startPlace: {x: 6, y: 0, z: 0}
+  casePosition: {x: 6, y: 0}
   blocSuperpose: {x: 0, y: 0}
 --- !u!114 &231032170
 MonoBehaviour:
@@ -1705,7 +1705,7 @@ MonoBehaviour:
   patateX: 2
   patateY: 2
   patateStartPos: 0
-  patateEndPos: 1
+  patateEndPos: 0
   goOnCase: {fileID: 368327341}
   manage: {fileID: 576056901}
   doubleHorizontal: 0
@@ -3597,7 +3597,7 @@ MonoBehaviour:
   left: {fileID: 2134263720}
   right: {fileID: 763678428}
   patateX: 0
-  patateY: 1
+  patateY: 0
   patateStartPos: 0
   patateEndPos: 0
   goOnCase: {fileID: 1198932154}
@@ -3622,8 +3622,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c087baa253594bfc861064f4770e403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPlace: {x: 0, y: 3, z: 0}
-  casePosition: {x: 0, y: 3}
+  startPlace: {x: 0, y: 0, z: 0}
+  casePosition: {x: 0, y: 0}
   blocSuperpose: {x: 0, y: 0}
 --- !u!114 &1198932155
 MonoBehaviour:
@@ -3735,13 +3735,13 @@ MonoBehaviour:
   goOnCase: {fileID: 1198932154}
   manage: {fileID: 576056901}
   LatestX: 0
-  LatestY: 1
+  LatestY: 0
   surStart: 0
   surEnd: 0
   twiceAsX: 0
   twiceAsY: 1
   SecondLateX: 0
-  SecondLateY: 2
+  SecondLateY: 1
 --- !u!114 &1198932159
 MonoBehaviour:
   m_ObjectHideFlags: 0
